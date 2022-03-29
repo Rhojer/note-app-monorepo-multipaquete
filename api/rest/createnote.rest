@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZGVzY29udHJvbCIsIm5hbWUiOiJyaG9qZXIiLCJub3RlcyI6WyI2MjI1MGZhMjE3MzFlNDUzODM2NjQzNDgiLCI2MjI3ZjUyZWRiZWNlZDhhNjNiZGE4ZWEiXSwiaWQiOiI2MjI1MGY4NTE3MzFlNDUzODM2NjQzNDMifSwiaWF0IjoxNjQ2Nzg3Mjg1LCJleHAiOjE2NDY3OTA4ODV9.3awP7swRjzPEZelPPRVkaAXtEqZAHDf6mbU3fQUFZ8s
+
+{
+    "content":"probando response json"
+    }
