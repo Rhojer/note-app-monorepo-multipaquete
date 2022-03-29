@@ -6,9 +6,12 @@
     "app",
     "api"
   ],
+  "engines":{
+    "npm": "7.24.2"
+  },
   "main": "index.js",
   "scripts": {
-    "build": "npm run build --workspace=app",
+    "build": "SKIP_PREFLIGHT_CHECK=true npm run build --workspace=app",
     "start":"npm start --workspace=api",
     "dev:api": "npm run build && npm run dev --workspace=api"
   },
